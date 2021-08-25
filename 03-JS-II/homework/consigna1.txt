@@ -1,0 +1,20 @@
+Escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años.
+Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+for
+Es la palabra clave predilecta de uno de los dos sistemas de bucles con los que cuenta JavaScript. El bucle for
+hace referencia a un método o sistema por el cual el intérprete detrás de JavaScript evalúa expresiones una y
+otra vez hasta que consigue "devolver" el resultado que estamos buscando, o bien, se detiene solo después de
+cierto tiempo de ejecución.
+
+&&, ||, !
+Estos símbolos hacen alusión a diferentes operadores lógicos que vienen incorporados al lenguaje de programación
+JavaScript.
+El primero es el operador llamado "Y" (AND, en inglés). Se utiliza para combinar dos expresiones de igualdad y
+preguntar si alguna de las dos es verdadera, si ambas lo son, o si ninguna de ellas lo es. Evaluará dichas
+expresiones y devolvera "verdadero" (true) sólo si ambas lo son. Por el contrario, devolverá "falso"
+(false) si una o ambas resultan serlo.
+El segundo es el operador llamado "Ó" (OR, en inglés). Se usa para determinar si una de las expresiones es
+verdadera, por lo que devolverá true si una o ambas lo son. Si ambas son falsas, devolverá false.
+El tercero es el operador llamado "NO" (NOT, en inglés). Éste funciona básicamente devolviendo el valor
+booleano opuesto de lo que se le pasa como dato a la hora de escribir código.
