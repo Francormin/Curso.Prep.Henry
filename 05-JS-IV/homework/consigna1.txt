@@ -1,33 +1,31 @@
-Escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años.
-Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+Escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto
+te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
 
 Objetos
-Los objetos son contenedores de datos que acumulan información sobre una sola cosa. Se deben encerrar entre
-llaves y utilizan un concepto llamado pares de Clave:Valor. La primera no es otra cosa que el nombre que le
-daremos a cada clave y el segundo, como su nombre lo indica, es el valor que guardaremos en cada una.
+Los objetos son contenedores de datos que acumulan información sobre una sola cosa. Se deben encerrar entre llaves y
+utilizan un concepto llamado pares de Clave:Valor. La primera no es otra cosa que el nombre que le daremos a cada clave
+y el segundo, como su nombre lo indica, es el valor que guardaremos en cada una.
 
 Propiedades
-Son las diferentes claves que contiene un objeto y a las cuales se les asigna, mediante los dos puntos, un
-valor determinado. Básicamente son items que contienen determinada información acerca del objeto al que
-pertenecen y sus valores pueden ser strings, números, booleanos, arrays.
+Son las diferentes claves que contiene un objeto y a las cuales se les asigna, mediante los dos puntos, un valor
+determinado. Básicamente son items que contienen determinada información acerca del objeto al que pertenecen y sus
+valores pueden ser strings, números, booleanos, arrays.
 
 Métodos
-Son funciones que se encuentran dentro de los objetos y que permiten hacer algo con la información provista
-anteriormente mediante las propiedades. Es importante señalar que los valores se pueden establecer en
-funciones al interior de los objetos, y que fuera de ellos se las puede llamar usado notación de
-puntos y paréntesis finales.
+Son funciones que se encuentran dentro de los objetos y que permiten hacer algo con la información provista anteriormente
+mediante las propiedades. Es importante señalar que los valores se pueden establecer en funciones al interior de los
+objetos, y que fuera de ellos se las puede llamar usado notación de puntos y paréntesis finales.
 
 Bucle for…in
-Como todo bucle, su función principal es iterar sobre cada par clave:valor de los objetos y de esa manera
-recorrerlos una y otra vez buscando la información que se tiene como objetivo. Cabe destacar que no es un
-tipo de bucle estándar como los que se usan en los arrays, sino que para los objetos se utiliza otro tipo
-de bucle for integrado llamado "for...in loop". Comienza igual que un bucle normal pero entre paréntesis
-se declara una variable, la palabra clave "in" y el nombre del objeto. De esa manera, recorrerá cada
-clave del objeto y finalizará cuando se haya iterado el total de las mismas.
+Como todo bucle, su función principal es iterar sobre cada par clave:valor de los objetos y de esa manera recorrerlos una
+y otra vez buscando la información que se tiene como objetivo. Cabe destacar que no es un tipo de bucle estándar como los
+que se usan en los arrays, sino que para los objetos se utiliza otro tipo de bucle for integrado llamado "for...in loop".
+Comienza igual que un bucle normal pero entre paréntesis se declara una variable, la palabra clave "in" y el nombre del
+objeto. De esa manera, recorrerá cada clave del objeto y finalizará cuando se haya iterado el total de las mismas.
 
 Notación de puntos vs notación de corchetes
-Para acceder a los valores guardados en las claves de los objetos, se debe llamar al nombre del objeto y
-la clave correspondiente. Pero esto se puede hacer de dos maneras distintas. Por un lado, la notación de
-puntos por la cual llamamos al NombreDelObjeto.NombreDeLaClave. Por otro lado, la notación de corchetes
-mediante la cual se debe usar una cadena o número o una variable que apunte a una cadena o número, y se
-pueden utilizar comillas, como por ejemplo NombreDelObjeto["NombreDeLaClave"].
+Para acceder a los valores guardados en las claves de los objetos, se debe llamar al nombre del objeto y la clave
+correspondiente. Pero esto se puede hacer de dos maneras distintas. Por un lado, la notación de puntos por la cual
+llamamos al NombreDelObjeto.NombreDeLaClave. Por otro lado, la notación de corchetes mediante la cual se debe usar una
+cadena o número o una variable que apunte a una cadena o número, y se pueden utilizar comillas, como por ejemplo
+NombreDelObjeto["NombreDeLaClave"].
