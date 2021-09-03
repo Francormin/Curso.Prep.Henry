@@ -1,25 +1,25 @@
-Escribe explicaciones de los siguientes conceptos como si se los estuvieras explicando a un niño de 12 años.
-Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+Escribe explicaciones de los siguientes conceptos como si se los estuvieras explicando a un niño de 12 años. Hacer
+esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
 
 Variables
-Son palabras que añadimos a la hora de escribir código y que sirven como método
-para "encerrar" un dato que luego nos servirá para utilizar más adelante.
+Son palabras que añadimos a la hora de escribir código y que sirven como método para "encerrar" un dato que luego nos
+servirá para utilizar más adelante.
 
 Strings
-Son un tipo de dato, uno de los más comunes en el lenguaje de programación JavaScript.
-Básicamente son cualquier texto (palabra, frase, oración) escrito entre comillas.
+Son un tipo de dato, uno de los más comunes en el lenguaje de programación JavaScript. Básicamente son cualquier texto
+(palabra, frase, oración) escrito entre comillas.
 
 Funciones (argumentos, return)
-Las funciones son tipos particulares de Objetos llamados "objetos invocables". Se utilizan cuando se tiene
-un conjunto de variables diversas y se necesita calcularlas, cambiarlas, o hacer algo con ellas. Para
-ejectutar una función se necesita escribir el nombre de la misma y los paréntesis.
+Las funciones son tipos particulares de Objetos llamados "objetos invocables". Se utilizan cuando se tiene un conjunto
+de variables diversas y se necesita calcularlas, cambiarlas, o hacer algo con ellas. Para ejectutar una función se
+necesita escribir el nombre de la misma y los paréntesis.
 Los argumentos son variables que se agregan entre paréntesis dentro de una función. Vale decir que, posteriormente,
 dichas variables pueden convertirse en valores.
 El "return" (retorno) es la única forma en que los datos contenidos en una función "escapen" de la misma, y por lo tanto
 podamos tener acceso a ellos. Se utiliza cuando queremos "devolver algo" que está alojado dentro de una función.
 
 Declaraciones if y Valores booleanos (true, false)
-La palabra clave "if" se refiere al operador de control de flujo. El "control flow" (o flujo de control) permite que nuestra
-función verifique si algo es "true" (verdadero) o no lo es. Vale recordar que "true" y "false" son los dos únicos valores
-posibles que pueden adquirir los tipos de datos "booleanos". Esto es así debido a la lógica booleana, en la que existen
-sólo dos opciones e imperan los pares de opuestos: activar/desactivar, blanco/negro, 0/1, verdadero/falso.
+La palabra clave "if" se refiere al operador de control de flujo. El "control flow" (o flujo de control) permite que
+nuestra función verifique si algo es "true" (verdadero) o no lo es. Vale recordar que "true" y "false" son los dos
+únicos valores posibles que pueden adquirir los tipos de datos "booleanos". Esto es así debido a la lógica booleana, en
+la que existen sólo dos opciones e imperan los pares de opuestos: activar/desactivar, blanco/negro, 0/1, verdadero/falso.
