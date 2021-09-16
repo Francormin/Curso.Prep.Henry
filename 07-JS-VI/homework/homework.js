@@ -4,7 +4,7 @@ function mayuscula(nombre) {
   //La función recibe un nombre y debe devolver el mismo que recibe pero con su primer letra en mayúscula
   //ej: Recibe "mario" ----> Devuelve "Mario"
   //Tu código:
-  return nombre[0].toUpperCase() + nombre.slice(1);  
+  return nombre[0].toUpperCase() + nombre.slice(1);
 }
 
 function invocarCallback(cb) {
@@ -26,7 +26,7 @@ function sumarArray(numeros, cb) {
   // No es necesario devolver nada
   //Tu código:
   suma = 0
-  numeros.reduce(function(acumulador, elemento) {
+  numeros.reduce(function (acumulador, elemento) {
     suma = acumulador + elemento;
     return suma;
   })
@@ -37,7 +37,7 @@ function forEach(array, cb) {
   // Itera sobre la matriz "array" y pasa los valores al callback uno por uno
   // Pista: Estarás invocando a `cb` varias veces (una por cada valor en la matriz)
   //Tu código:
-  array.forEach(function(elemento) {
+  array.forEach(function (elemento) {
     cb(elemento);
   })
 }
@@ -47,7 +47,7 @@ function map(array, cb) {
   // Itera sobre cada valor en "array", pásalo a `cb` y luego ubicar el valor devuelto por `cb` en un nuevo array
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
-  var nuevoArray = array.map(function(elemento) {
+  var nuevoArray = array.map(function (elemento) {
     return cb(elemento);
   })
   return nuevoArray;
@@ -57,8 +57,8 @@ function filter(array) {
   //Filtrar todos los elementos del array que comiencen con la letra "a".
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
-  var nuevoArray = array.filter(function(elemento) {
-    if(elemento[0] === "a") {
+  var nuevoArray = array.filter(function (elemento) {
+    if (elemento[0] === "a") {
       return elemento;
     }
   })

@@ -13,7 +13,7 @@ const nuevoBool = true;
 const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * 4 === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40;
 
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === 1;
@@ -64,7 +64,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(x === y) {
+  if (x === y) {
     return true;
   }
   return false;
@@ -74,7 +74,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(str1.length === str2.length) {
+  if (str1.length === str2.length) {
     return true;
   }
   return false;
@@ -84,7 +84,7 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(num < 90) {
+  if (num < 90) {
     return true;
   }
   return false;
@@ -94,10 +94,10 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
- if(num > 50) {
-   return true;
- }
- return false;
+  if (num > 50) {
+    return true;
+  }
+  return false;
 }
 
 function obtenerResto(x, y) {
@@ -111,7 +111,7 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(num % 2 === 0) {
+  if (num % 2 === 0) {
     return true;
   }
   return false;
@@ -121,7 +121,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(num % 2 === 0) {
+  if (num % 2 === 0) {
     return false;
   }
   return true;
@@ -166,7 +166,7 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  var numeroRandom = Math.random(0,1);
+  var numeroRandom = Math.random(0, 1);
   return numeroRandom;
 }
 
@@ -175,13 +175,13 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if(numero > 0) {
+  if (numero > 0) {
     return "Es positivo";
   }
-  if(numero < 0) {
+  if (numero < 0) {
     return "Es negativo";
   }
-  if(numero === 0) {
+  if (numero === 0) {
     return false;
   }
 }
@@ -245,10 +245,10 @@ function esVocal(letra) {
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if(letra.length > 1) {
+  if (letra.length > 1) {
     return "Dato incorrecto";
   }
-  if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra ==="u") {
+  if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {
     return "Es vocal";
   }
   return "Dato incorrecto";
@@ -291,5 +291,5 @@ module.exports = {
   retornarPerimetro,
   areaDelTriangulo,
   deEuroAdolar,
-  esVocal,
+  esVocal
 }
