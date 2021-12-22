@@ -2,7 +2,7 @@
 
 ## Introducción
 
-# Modulo 0 - Prep
+# Modulo 0 - Prepp
 
 * [00 - Primeros Pasos](./00-PrimerosPasos)
 * [01 - Git](./01-Git)
